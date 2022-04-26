@@ -11,7 +11,8 @@
     "serve:ssr": "node dist/test-universal/server/main.js",
     "build:ssr": "ng build && ng run test-universal:server",
     "prerender": "ng run test-universal:prerender",
-    "heroku-postbuild": "npm run build:ssr"
+    "heroku-postbuild": "npm run build:ssr",
+    "start:heroku": "node dist/test-universal/server/main.js"
   },
   "private": true,
   "dependencies": {
